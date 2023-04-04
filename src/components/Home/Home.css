@@ -1,0 +1,298 @@
+.page_first_banner {
+    width: 100%;
+    height: auto;
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/01-09-2020/burgerbun-liberty-demo_Free/1364685867/web/assets/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.page_first {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page_first h2 {
+    color: transparent;
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+
+}
+
+.first_page_texts {
+    padding-top: 200px;
+}
+
+.first_page_texts h3 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.first_page_texts p {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.first_page_btn button {
+    font-size: 19px;
+    font-weight: 450;
+    padding: 13px;
+    border-radius: 7px;
+    border: 3px solid var(--bg-py);
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.see_menu {
+    background-color: var(--bg-py);
+}
+
+.book_table {
+    margin-left: 10px;
+    background-color: transparent;
+    color: var(--bg-py);
+}
+
+.book_table:hover {
+    background-color: var(--bg-py);
+    transition: 0.3s;
+    color: black;
+}
+
+.see_menu:hover {
+    color: var(--bg-py);
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.second_page {
+    width: 100%;
+    margin-top: 100px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.second_page_video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.second_page_video img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.second_page_text {
+    font-size: 23px;
+    color: var(--bg-sy);
+}
+
+.second_page_second_text {
+    font-size: 35px;
+}
+
+.btn_second_page {
+    font-size: 20px;
+    padding: 7px;
+    background-color: var(--bg-py);
+    border: 3px solid var(--bg-py);
+    border-radius: 7px;
+    margin-top: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.btn_second_page:hover {
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.third_page {
+    width: 100%;
+    height: auto;
+    background-color: #dbdbdb;
+    padding-bottom: 50px;
+}
+
+.box {
+    height: 420px;
+    width: 370px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 10px #d6d6d6;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.box svg {
+    font-size: 30px;
+    margin-top: 30px;
+    color: var(--bg-py);
+}
+
+.box h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.box p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 3px;
+    color: var(--bg-sy);
+}
+
+.box:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #b7b7b7;
+}
+
+.third_page_c {
+    width: 100%;
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.fourth_page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+@media screen and (max-width:700px) {
+    .fourth_page {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.first_line {
+    width: auto;
+    height: 85%;
+}
+
+.second_line {
+    width: 33%;
+    height: 85%;
+}
+
+.second_line img {
+    width: 100%;
+    height: 100%;
+}
+
+.third_line {
+    width: auto;
+    height: 85%;
+}
+
+.four_box {
+    height: 33%;
+    width: 100%;
+    display: flex;
+}
+
+.box_icon svg {
+    font-size: 27px;
+    margin-top: 10px;
+    color: var(--bg-py);
+    margin-left: 10px;
+}
+
+.four_box_text {
+    margin-left: 20px;
+}
+
+.four_box_text p {
+    font-size: 19px;
+    color: var(--bg-sy);
+}
+
+.four_box h2:hover {
+    color: var(--bg-py);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.fiveth_page_banner {
+    width: 100%;
+    height: auto;
+    background-image: url('https://demo.w3layouts.com/demos_new/template_demo/01-09-2020/burgerbun-liberty-demo_Free/1364685867/web/assets/images/bg.jpg'
+        );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.fiveth_page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00000076;
+    justify-content: center;
+    font-weight: 450;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.fiveth_page {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    gap: 20px;
+}
+
+.fiveth_page span {
+    color: var(--bg-py);
+}
+
+.next_page {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.pictures_container {
+    justify-content: center;
+    display: flex;
+    padding-top: 60px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.pictures_container img {
+    width: 240px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
