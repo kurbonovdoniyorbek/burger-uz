@@ -12,7 +12,7 @@ const Footer = () => {
                     <p>Suspendisse efficitur orci urna. In et augue ornare, tempor massa in, luctus sapien. Proin a diam et dui fermentum molestie vel id neque. Donec sed tempus enim, a congue risus. euismod massa a quam interdum.</p>
                     <h4>Enter your email to get download link</h4>
                     <div className="email_input">
-                        <input type="email" />
+                        <input type="email" placeholder='Email' />
                         <div className="footer_icon">
                             <BiSearchAlt />
                         </div>
